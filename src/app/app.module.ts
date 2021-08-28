@@ -4,17 +4,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { PatientLoginComponent } from './components/patient-login/patient-login.component';
-import { EmployeeLoginComponent } from './components/employee-login/employee-login.component';
-import { PatientSignupComponent } from './components/patient-signup/patient-signup.component';
+import { HomeComponent } from './components/home/home.component';
+import { EmployeeSignupComponent } from './components/employee-signup/employee-signup.component';
+======
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    PatientLoginComponent,
-    EmployeeLoginComponent,
-    PatientSignupComponent
+
+    HomeComponent,
+    EmployeeSignupComponent
 
   ],
   imports: [
