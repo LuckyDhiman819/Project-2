@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 
 import { PatientLoginComponent } from './components/patient-login/patient-login.component';
 import { EmployeeLoginComponent } from './components/employee-login/employee-login.component';
+import { PatientSignupComponent } from './components/patient-signup/patient-signup.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PatientLoginComponent,
-    EmployeeLoginComponent
+    EmployeeLoginComponent,
+    PatientSignupComponent
 
   ],
   imports: [
