@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { EmployeeSignupComponent } from './components/employee-signup/employee-signup.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminSignupComponent } from './components/admin-signup/admin-signup.component';
 import { PatientSignupComponent } from './components/patient-signup/patient-signup.component';
@@ -15,7 +14,6 @@ import { AdminLoginComponent } from './components/admin-login/admin-login.compon
   declarations: [
     AppComponent,
     HomeComponent,
-    EmployeeSignupComponent,
     AdminSignupComponent,
     PatientSignupComponent,
     PatientLoginComponent,
