@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+
 
 @Component({
   selector: 'app-patient-signup',
@@ -44,6 +46,10 @@ export class PatientSignupComponent implements OnInit {
       return false;
     }
     return true;
+
+  constructor() { }
+
+  ngOnInit(): void {
 
   }
 
